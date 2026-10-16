@@ -198,7 +198,7 @@ body.lock{overflow:hidden}
 </div></section>
 <section class="s"><div class="in">
   <p style="font-size:1.6rem">Si querés hacerme algún regalo, te dejo mi alias:</p>
-  <div class="alias">bianca.254.mp</div><br>
+  <div class="alias">bianca.254.mp.</div><br>
   <button class="btn alt" id="copy" type="button">Copiar alias</button>
 </div></section>
 <div class="foot">Con cariño, Bianca 💜</div>
@@ -235,7 +235,7 @@ wa(va?"¡Hola "+NOMBRE+"! Soy "+n+". Confirmo mi asistencia a tus XV 💜 Vamos 
 :"Hola "+NOMBRE+", soy "+n+". Lamentablemente no voy a poder acompañarte en tus XV, ¡pero te mando un abrazo enorme! 💜")}
 function armar(){var n=$("nom").value.trim(),c=$("cant").value;$("si").href="https://wa.me/"+WSP+"?text="+encodeURIComponent("¡Hola "+NOMBRE+"!"+(n?" Soy "+n+".":"")+" Confirmo mi asistencia a tus XV 💜"+(n?" Vamos "+c+(c==="1"?" persona":" personas")+".":""));$("no").href="https://wa.me/"+WSP+"?text="+encodeURIComponent("Hola "+NOMBRE+","+(n?" soy "+n+".":"")+" Lamentablemente no voy a poder acompañarte en tus XV, ¡pero te mando un abrazo enorme! 💜")}$("nom").oninput=armar;$("cant").onchange=armar;armar();
 
-$("copy").onclick=function(){var b=this;try{navigator.clipboard.writeText("bianca.254.mp").then(function(){b.textContent="¡Copiado!"},function(){b.textContent="Copialo a mano"})}catch(e){b.textContent="Copialo a mano"}};
+$("copy").onclick=function(){var b=this;try{navigator.clipboard.writeText("bianca.254.mp.").then(function(){b.textContent="¡Copiado!"},function(){b.textContent="Copialo a mano"})}catch(e){b.textContent="Copialo a mano"}};
 
 var bg=$("bg");
 for(var i=0;i<14;i++){var e=document.createElement("div");e.className="far";var s=0.6+Math.random()*0.8;
